@@ -1,0 +1,20 @@
+//google font
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC');
+
+//font variable
+$font-first: 'Spectral SC', serif;
+$font-color: #34495e;
+
+body {
+  font-family: $font-first;
+  color: $font-color;
+}
+textarea {
+    resize: vertical;
+    height: 100%;
+}
+
+.judul {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
